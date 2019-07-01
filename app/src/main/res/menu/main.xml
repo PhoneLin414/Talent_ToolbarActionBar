@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/test1"
+          android:title="test1"
+          android:orderInCategory="2"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/test2"
+          android:title="test2"
+          android:orderInCategory="1"
+          app:showAsAction="always"
+          android:icon="@drawable/bookmark"/>
+
+    <item android:id="@+id/test3"
+          android:title="test3"
+          android:orderInCategory="3"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/test4"
+          android:title="test4"
+          android:orderInCategory="100"
+          app:showAsAction="withText"
+    android:onClick="test4onClick"/>
+
+    <item android:id="@+id/test5"
+          android:title="test5"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/test6"
+          android:title="test6"
+          android:orderInCategory="100"
+          app:showAsAction="collapseActionView"/>
+
+</menu>
